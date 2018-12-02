@@ -3,7 +3,7 @@ package com.example.mybatis.bean;
 import java.io.Serializable;
 
 /**
- *用户类
+ *
  */
 public class User implements Serializable {
 
