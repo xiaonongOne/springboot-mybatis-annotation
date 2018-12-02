@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
+
 /**
  *@ClassName UserController.java
  *@Description 测试类
@@ -75,7 +75,7 @@ public class UserController {
     * @Author: Xiao Nong
     * @Date: 2018/12/2
     */
-    @RequestMapping(value = "delete/{userId}")
+    @RequestMapping(value = "delete/userId")
     public void delete (@PathVariable("userId") Long id) {
         userService.delete(id);
     }
